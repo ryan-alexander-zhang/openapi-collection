@@ -12,5 +12,5 @@ openapi-generator generate \
   --api-package com.ryan.openapi.harbor.client.api \
   --model-package com.ryan.openapi.harbor.client.model \
   --invoker-package com.ryan.openapi.harbor.client.invoker \
-  --additional-properties=useMaven=true,dateLibrary=java21,hideGenerationTimestamp=true,generateClientAsBean=true,generateBuilders=true,licenseName=MIT,licenseUrl=https://opensource.org/license/mit
+  --additional-properties=useMaven=true,dateLibrary=java21,hideGenerationTimestamp=true,generateBuilders=true,licenseName=MIT,licenseUrl=https://opensource.org/license/mit
 ```

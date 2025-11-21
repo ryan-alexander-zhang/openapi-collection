@@ -12,7 +12,6 @@ import java.util.Objects;
 import java.util.Arrays;
 import java.util.stream.Collectors;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.FileSystemResource;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.HttpHeaders;
@@ -20,14 +19,12 @@ import org.springframework.http.HttpMethod;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Component;
 import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
 import org.springframework.web.client.RestClient.ResponseSpec;
 import org.springframework.web.client.RestClientResponseException;
 
 @jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.17.0")
-@Component("com.ryan.openapi.harbor.client.api.ProjectMetadataApi")
 public class ProjectMetadataApi {
     private ApiClient apiClient;
 
@@ -35,7 +32,6 @@ public class ProjectMetadataApi {
         this(new ApiClient());
     }
 
-    @Autowired
     public ProjectMetadataApi(ApiClient apiClient) {
         this.apiClient = apiClient;
     }

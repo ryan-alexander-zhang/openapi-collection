@@ -1,0 +1,16 @@
+
+
+# RobotCreateV1
+
+
+## Properties
+
+| Name | Type | Description | Notes |
+|------------ | ------------- | ------------- | -------------|
+|**name** | **String** | The name of robot account |  [optional] |
+|**description** | **String** | The description of robot account |  [optional] |
+|**expiresAt** | **Integer** | The expiration time on or after which the JWT MUST NOT be accepted for processing. |  [optional] |
+|**access** | [**List&lt;Access&gt;**](Access.md) | The permission of robot account |  [optional] |
+
+
+

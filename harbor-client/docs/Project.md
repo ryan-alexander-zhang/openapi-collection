@@ -1,0 +1,26 @@
+
+
+# Project
+
+
+## Properties
+
+| Name | Type | Description | Notes |
+|------------ | ------------- | ------------- | -------------|
+|**projectId** | **Integer** | Project ID |  [optional] |
+|**ownerId** | **Integer** | The owner ID of the project always means the creator of the project. |  [optional] |
+|**name** | **String** | The name of the project. |  [optional] |
+|**registryId** | **Long** | The ID of referenced registry when the project is a proxy cache project. |  [optional] |
+|**creationTime** | **Date** | The creation time of the project. |  [optional] |
+|**updateTime** | **Date** | The update time of the project. |  [optional] |
+|**deleted** | **Boolean** | A deletion mark of the project. |  [optional] |
+|**ownerName** | **String** | The owner name of the project. |  [optional] |
+|**togglable** | **Boolean** | Correspond to the UI about whether the project&#39;s publicity is  updatable (for UI) |  [optional] |
+|**currentUserRoleId** | **Integer** | The role ID with highest permission of the current user who triggered the API (for UI).  This attribute is deprecated and will be removed in future versions. |  [optional] |
+|**currentUserRoleIds** | **List&lt;Integer&gt;** | The list of role ID of the current user who triggered the API (for UI) |  [optional] |
+|**repoCount** | **Integer** | The number of the repositories under this project. |  [optional] |
+|**metadata** | [**ProjectMetadata**](ProjectMetadata.md) |  |  [optional] |
+|**cveAllowlist** | [**CVEAllowlist**](CVEAllowlist.md) |  |  [optional] |
+
+
+
